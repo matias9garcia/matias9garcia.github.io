@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Ricardo Soto's Home Page</title>
+
+        <!-- Styles -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="\normalize.css" rel="stylesheet">
+        <link href="\font-style.css" rel="stylesheet">
+        
+
+    </head>
+    <body class="antialiased">
+
+        <!-- Fixed navbar --> 
+             
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Ricardo Soto</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Teaching
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Curso1</a>
+                          <a class="dropdown-item" href="#">Curso2</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seccion-estudiantes">Students</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Research
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#seccion-publicaciones">Publications</a>
+                          <a class="dropdown-item" href="#seccion-proyectos">Projects</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                  
+                </div>
+            </div>
+            
+          </nav>
+        <!-- end of Fixed navbar -->
+
+        <!-- page content -->
+        <div class="container">
+
+            <div class="page-header">
+      
+            <h2>Ricardo Soto De Giorgis</h2>
+      
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-7">
+                    <img src="https://cdn.discordapp.com/attachments/454085077568192515/1004522677639323688/rsoto.jpg" class="col-md-12 col-sm-12 col-xs-12" title="rsoto profile pic">
+                  <p class="text-center"><a href="http://lucasjanson.fas.harvard.edu/Lucas_Janson_CV.pdf">Curriculum Vitae</a></p>
+                </div>
+            
+                  <div class="col-md-6 col-sm-6 col-xs-5">
+                  <p>I am an Assistant Professor of <a href="https://statistics.fas.harvard.edu/">Statistics</a> and Affiliate in <a href="https://www.seas.harvard.edu/computer-science">Computer Science</a> at Harvard University, where I study high-dimensional inference and statistical machine learning. </p>
+            
+                  <p>In addition to my methodological and theoretical work, I collaborate with domain experts to apply my work to scientific fields including genetics, political science, and climatology, and I run the <a href="https://statistics.fas.harvard.edu/harvard-statistics-consulting-service">Harvard Statistical Consulting Service</a> where I supervise PhD students advising hundreds of researchers per year.</p>
+            
+            
+                  </div>
+            </div>
+      
+            
+            <div class="col-md-12 col-sm-12 col-xs-12">
+      
+            <h3>Contact</h3>
+          
+            <p>
+          Av. Brasil 2241<br>
+          Valparaíso, MA 4059<br>
+          <a href="mailto:ricardo.soto@pucv.cl" style="">ricardo.soto@pucv.cl</a>
+            </p>
+            </div>
+          
+      
+      
+            
+      
+          </div>
+        </div> 
+        <!-- end of page content && container -->
+
+        <br>
+
+        <!-- page content -->
+        <div class="container" id="seccion-cursos">
+          <h1>Courses</h1>
+          <p>curso1</p>
+          <p>curso2</p>
+        </div>
+        <!-- end of page content && container -->
+
+        <br>
+
+        <!-- page content -->
+        <div class="container" id="seccion-estudiantes">
+          <h1>Students</h1>
+          <h2>Alumni</h2>
+          <p>Pepe Rojas</p>
+          <p>Armando Casas</p>
+        </div>
+        <!-- end of page content && container -->
+
+        <br>
+
+        <!-- page content -->
+        <div class="container">
+          <h1 id="seccion-publicaciones">Publications</h1>
+          
+          <p>https://dblp.org/pid/41/5788.html</p>
+          <p>https://scholar.google.cl/citations?user=iC1zxr4AAAAJ&hl=en</p>
+          <p>https://pure.pucv.cl/en/persons/ricardo-javier-soto-de-giorgis</p>
+          
+        </div>
+        <!-- end of page content && container -->
+
+        <br>
+
+        <!-- page content -->
+        <div class="container">
+          <h1 id="seccion-proyectos">Projects</h1>
+          
+          <p>proyecto1</p>
+          <p>proyecto2</p>
+          <p>proyecto3</p>
+          
+        </div>
+        <!-- end of page content && container -->
+    </body>
+
+    <!-- bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
