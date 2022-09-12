@@ -1,7 +1,10 @@
 h2 {
-    padding-top: 1em;
+    padding: 1em;
 }
 
+h3 {
+    padding: 0.5em;
+}
 .center-block {
     display: block;
     margin-left: auto;
