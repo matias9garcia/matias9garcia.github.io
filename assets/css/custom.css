@@ -14,9 +14,15 @@ h3 {
  .navbar-light .navbar-brand {
     color: white;
  }
+ .navbar-light .navbar-brand:hover {
+    color: rgb(139, 240, 243);
+ }
 
  .navbar-light .navbar-nav .nav-link {
     color: white;
+ }
+ .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(139, 240, 243);
  }
 
  #navbar {
