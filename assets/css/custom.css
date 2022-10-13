@@ -10,3 +10,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
  }
+
+ #navbar {
+     background-color: rgba(123, 116, 221, 0.486);
+ }
