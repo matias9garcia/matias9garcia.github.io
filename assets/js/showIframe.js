@@ -51,6 +51,9 @@ function showIframe(id) {
     let selection = search(id, options);
     change_style(selection, options);
 
+    let iframe = document.getElementById(selection.iframe);
+    iframe.scrollIntoView();
+
     // end
     
 }
