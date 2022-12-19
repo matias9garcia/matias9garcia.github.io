@@ -106,26 +106,37 @@
 
             <div class="row">
 
-              <!-- This should be the src of iframe but domain has no SSL yet, http://zeus.inf.ucv.cl/~rsoto/ -->
-              <iframe 
-              id="iframe_rsoto"
-              title=""
-              width="100%"
-              height="700"
-              src="https://matias9garcia.github.io/rsoto/"
-              onload=""
-              style="display: none;">
-              </iframe>
+              <div class="col-xs-12 col-md-10" style="text-align:center;">
+                <div id = "div-loading-gif">
+                  <img id = "flying-kong.gif" src = "../assets/gif/flying-kong.gif">
+                  <h3>Loading</h3>
+                </div>
+              </div>
 
-              <iframe 
-                id="iframe_induserve"
+                <!-- This should be the src of iframe but domain has no SSL yet, http://zeus.inf.ucv.cl/~rsoto/ -->
+                <iframe 
+                id="iframe_rsoto"
                 title=""
                 width="100%"
                 height="700"
-                src="https://induserve.cl/"
+                src="https://matias9garcia.github.io/rsoto/"
                 onload=""
                 style="display: none;">
-              </iframe>
+                </iframe>
+              
+              
+              
+                <iframe 
+                  id="iframe_induserve"
+                  title=""
+                  width="100%"
+                  height="700"
+                  src="https://induserve.cl/"
+                  onload=""
+                  style="display: none;">
+                </iframe>
+              
+              
 
             </div>
 
@@ -150,4 +161,5 @@
 
     <!-- showIframe script -->
     <script src="../assets/js/showIframe.js"></script>
+
 </html>

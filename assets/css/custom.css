@@ -47,3 +47,11 @@ h3 {
     border-color: black;
     font-weight: bold;
  }
+
+ #div-loading-gif {
+   display: none;
+   position:absolute;
+   background-color: rgba(166, 255, 0, 0.685);
+   color: black; 
+   border-radius: 50%;
+ }

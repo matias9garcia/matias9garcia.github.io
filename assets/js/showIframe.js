@@ -13,6 +13,23 @@ function showIframe(id) {
         }
     ];
 
+    function sleep() {
+
+        var myDiv = document.getElementById("div-loading-gif"),
+    
+          show = function(){
+            myDiv.style.display = "inline";
+            setTimeout(hide, 2500); // 2.5 seconds
+          },
+    
+          hide = function(){
+            myDiv.style.display = "none";
+          };
+    
+        show();
+    
+    }
+
     function search(id, options){
 
         for (let i=0; i < options.length; i++) {
@@ -32,6 +49,7 @@ function showIframe(id) {
 
                 if (iframe.style.display === "none"){
                     iframe.style.display = "inline";
+                    sleep();
                     btn.innerHTML = "Ocultar";
                 }
                 else if(iframe.style.display === "inline"){
@@ -45,6 +63,8 @@ function showIframe(id) {
             }
         }
     }
+
+
 
     // start
 
