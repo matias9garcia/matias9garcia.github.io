@@ -19,7 +19,7 @@ function showIframe(id) {
     
           show = function(){
             myDiv.style.display = "inline";
-            setTimeout(hide, 2500); // 2.5 seconds
+            setTimeout(hide, 2000); // 2 seconds
           },
     
           hide = function(){
