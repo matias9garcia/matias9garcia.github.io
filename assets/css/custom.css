@@ -50,8 +50,14 @@ h3 {
 
  #div-loading-gif {
    display: none;
-   position:absolute;
-   background-color: rgba(166, 255, 0, 0.685);
+   position:relative;
+   text-align: center;
    color: black; 
    border-radius: 50%;
  }
+
+ /* Resize images */
+.div-loading-gif img {
+   width: 100%;
+   height: auto;
+}
