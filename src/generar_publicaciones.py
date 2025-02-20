@@ -16,7 +16,7 @@ try:
     response.raise_for_status()
 
     # Procesar el contenido HTML
-    soup = BeautifulSoup(response.content, "lxml")
+    soup = BeautifulSoup(response.content, "html.parser")
     publicaciones = []
 
     # Buscar publicaciones en el HTML
