@@ -1,9 +1,9 @@
 h2 {
-    padding: 1em;
+   padding-top: 1em;
 }
 
 h3 {
-    padding: 0.5em;
+    padding-top: 1.5em;
 }
 .center-block {
     display: block;
@@ -27,6 +27,7 @@ h3 {
 
  #navbar {
      background-color: #2e2e2e;
+     border-bottom: 1.5px solid #9c9a9a;
  }
 
  .navbar-light .navbar-toggler {
@@ -64,4 +65,7 @@ h3 {
 
 #foto_mati {
    width: 50%;
+   border-color: #2e2e2e;
+   border-style: solid;
+   
 }
