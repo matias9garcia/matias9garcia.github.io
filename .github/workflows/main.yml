@@ -20,8 +20,11 @@ jobs:
 
       - name: Instalar dependencias
         run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-dev libxslt-dev
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml  # Agregado lxml
+          pip install requests beautifulsoup4 lxml
+
 
       - name: Ejecutar el script de Python
         run: |
