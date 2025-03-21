@@ -3,7 +3,7 @@ h2 {
 }
 
 h3 {
-    padding-top: 1.5em;
+    padding-top: 1em;
 }
 .center-block {
     display: block;
@@ -65,8 +65,7 @@ h3 {
 
 #foto_mati {
    width: 50%;
-   border-color: #2e2e2e;
-   border-style: solid;
+ 
    
 }
 
@@ -81,11 +80,12 @@ html, body {
 }
 
 footer {
-    background-color: #f8f9fa !important;
-    font-size: 14px;
-    color: #6c757d;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
-    position: relative;
+   background-color: #f8f9fa;
+   font-size: 14px;
+   color: #6c757d;
+   text-align: center;
+   padding: 10px;
+   width: 100%;
+   position: relative;
 }
+
