@@ -30,3 +30,11 @@ jobs:
           git add publicaciones.json
           git commit -m "Actualizar publicaciones automáticamente" || echo "No hay cambios"
           git push
+
+      - name: Guardar fecha de actualización
+        run: |
+          echo "{ \"fecha\": \"$(date -u +"%Y-%m-%d %H:%M:%S UTC")\" }" > ultima_actualizacion.json
+          git add ultima_actualizacion.json
+          git commit -m "Actualizar fecha de última actualización" || echo "No hay cambios"
+          git push
+
