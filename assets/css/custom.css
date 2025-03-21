@@ -71,7 +71,7 @@ h3 {
 }
 
 footer {
-    background-color: #f8f9fa;
+    background-color: #f8f9fa !important;
     font-size: 14px;
     color: #6c757d;
 }
