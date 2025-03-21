@@ -70,8 +70,22 @@ h3 {
    
 }
 
+html, body {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.container {
+   flex: 1; /* Esto hace que el contenido crezca y empuje el footer hacia abajo */
+}
+
 footer {
     background-color: #f8f9fa !important;
     font-size: 14px;
     color: #6c757d;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
 }
